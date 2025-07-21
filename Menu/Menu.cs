@@ -53,12 +53,11 @@ namespace Colossal.MenuStuff
 			Menu.Testtext.alignment = TextAnchor.UpperLeft;
 			Menu.HUDObj2.transform.transform.position = new Vector3(Menu.MainCamera.transform.position.x, Menu.MainCamera.transform.position.y, Menu.MainCamera.transform.position.z);
 			Menu.HUDObj2.transform.rotation = Menu.MainCamera.transform.rotation;
-            Menu.MainMenu = new MenuOption[5];
+            Menu.MainMenu = new MenuOption[4];
             Menu.MainMenu[0] = new MenuOption { DisplayName = "Movement", _type = "submenu", AssociatedString = "Movement" };
             Menu.MainMenu[1] = new MenuOption { DisplayName = "Photon", _type = "submenu", AssociatedString = "Photon" };
             Menu.MainMenu[2] = new MenuOption { DisplayName = "Extra", _type = "submenu", AssociatedString = "Cosmetics" };
             Menu.MainMenu[3] = new MenuOption { DisplayName = "All Credit Goes To Colossus", _type = "submenu", AssociatedString = "Player" };
-            Menu.MainMenu[4] = new MenuOption { DisplayName = "Modified By Livku", _type = "button", AssociatedString = "wcd" };
 
             Menu.Movement = new MenuOption[7];
             Menu.Movement[0] = new MenuOption { DisplayName = "ExcelFly", _type = "toggle", AssociatedBool = false };
@@ -66,7 +65,7 @@ namespace Colossal.MenuStuff
             Menu.Movement[2] = new MenuOption { DisplayName = "Fly", _type = "toggle", AssociatedBool = false };
             Menu.Movement[3] = new MenuOption { DisplayName = "LongArms", _type = "toggle", AssociatedBool = false };
             Menu.Movement[4] = new MenuOption { DisplayName = "FreezeMonke", _type = "toggle", AssociatedBool = false };
-            Menu.Movement[5] = new MenuOption { DisplayName = "dsc.gg/livku", _type = "button", AssociatedString = "false" };
+            Menu.Movement[5] = new MenuOption { DisplayName = "dsc.gg/colossal.lol", _type = "button", AssociatedString = "false" };
             Menu.Movement[6] = new MenuOption { DisplayName = "Back", _type = "submenu", AssociatedString = "Back" };
 
             Menu.Photonn = new MenuOption[10];
@@ -271,7 +270,7 @@ namespace Colossal.MenuStuff
 									PhotonNetwork.TransferOwnership(player.actorNumber, PhotonNetwork.LocalPlayer.actorNumber);
 									PhotonNetwork.RequestOwnership(player.actorNumber, PhotonNetwork.LocalPlayer.actorNumber);
 									player.actorNumber = PhotonNetwork.LocalPlayer.actorNumber;
-									player.NickName = "<color=red> LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU  </color>";
+									player.NickName = "<color=red> COLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSAL  </color>";
 								}
 							}
 						}
@@ -283,7 +282,7 @@ namespace Colossal.MenuStuff
 						if (option.AssociatedString == "roomname")
 						{
 							PhotonNetwork.SetMasterClient(PhotonNetwork.LocalPlayer);
-							PhotonNetwork.CurrentRoom.name = "<color=red> LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU LIVKU  </color>";
+							PhotonNetwork.CurrentRoom.name = "<color=red> COLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSALCOLOSSAL  </color>";
 						}
 						if (option.AssociatedString == "disconnect")
 						{
